@@ -42,6 +42,7 @@ module.exports = {
         'bg4': "url('/src/img/bg4.png')",
         'hpic': "url('/src/img/hpic.png')",
         'bgtree': "url('/src/img/bg-tree.png')",
+        'bgpop': "url('/src/img/test.png')",
       }
     },
   },

@@ -41,6 +41,18 @@ const service = [
         Price: '60 mins $110 | 90 mins $165',
         img: require('../../img/Services/Services6.png')
     },
+    {
+        id : 7,
+        servicename: ' facial',
+        description : '',
+        Price: '1 hour $100'
+    },
+    {
+        id : 8,
+        servicename: 'Package facial and massage',
+        description: "" , 
+        Price : '2 hours $180',
+    }
 ];
 
 export default service;
