@@ -35,13 +35,15 @@ module.exports = {
         'gold': '#ffd700',
       },
       backgroundImage: {
-        'pageb': "url('/src/img/bg1.png')",
+        'pageb': "url('/src/img/bg5.png')",
+        'testbg': "url('/src/img/bg1.png')",
         'bgtest': "url('/src/img/hbg.jpg')",
         'bg2': "url('/src/img/bg2.png')", 
         'bg3': "url('/src/img/bg3.png')",
         'bg4': "url('/src/img/bg4.png')",
         'hpic': "url('/src/img/hpic.png')",
         'bgtree': "url('/src/img/bg-tree.png')",
+        'bgpop': "url('/src/img/test.png')",
       }
     },
   },

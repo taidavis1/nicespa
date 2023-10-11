@@ -34,7 +34,7 @@ export default function Footer(){
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/nailstech.md/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="https://www.yelp.com/biz/nice-spa-sacramento-2" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
                                 </a>
                             </li>

@@ -1,9 +1,9 @@
 import {React , useState} from "react";
-import Logo from "../img/Logo.png";
+import Logo1 from "../img/Logo1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebookF , faInstagram , faGoogle , faYelp} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
-import {faBarsStaggered ,faXmark} from "@fortawesome/free-solid-svg-icons"
+import {faBarsStaggered ,faXmark , faPhone} from "@fortawesome/free-solid-svg-icons"
 
 function Navbar(){
     const [Click , setClick] = useState(false);
@@ -23,14 +23,21 @@ function Navbar(){
     return (
         <div className="">
             <nav className= {Scroll?"bg-white flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
-                <div className="flex items-center cursor-pointer group">
-                    <img src={Logo} alt="" className=" w-16 md:w-20 group-hover:opacity-70"/>
+                <div className="flex items-center space-x-1 cursor-pointer group">
+                    <img src={Logo1} alt="" className=" w-20 md:w-20 group-hover:opacity-70"/>
+                    <div className="flex font-Dancing italic font-extrabold text-2xl items-center ">
+                        <span className={Scroll? "text-black" : "text-gold"}>Nice Spa</span>
+                    </div>
+
                 </div>
-                <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden blkock text-3xl cursor-pointer flex items-center text-b;acl": "lg:hidden blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
-                {!Click? 
-                    <FontAwesomeIcon className="" icon = {faBarsStaggered}/> : 
-                    <FontAwesomeIcon className="" icon={faXmark} />
-                }
+                <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-6": "lg:hidden space-x-6 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
+                    <div className={`${Scroll? "border-2" : "border-0" } p-2`}>
+                        <FontAwesomeIcon className=" flex !text-xl !text-green-400" icon = {faPhone}/>
+                    </div>
+                    {!Click? 
+                        <FontAwesomeIcon className=" text-orange-400" icon = {faBarsStaggered}/> : 
+                        <FontAwesomeIcon className=" text-orange-400" icon={faXmark} />
+                    }
                 </div>
                 <div className= {Scroll? "lg:flex text-md hidden items-center space-x-12 font-new-font text-xl capitalize text-black" : "lg:flex text-md hidden items-center space-x-12 font-new-font text-xl capitalize text-orange-400" }>
                     <a className="flex t-underline t-underline-black border-b-yellow-500 " href = "/">
