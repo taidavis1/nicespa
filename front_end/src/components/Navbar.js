@@ -3,7 +3,7 @@ import Logo1 from "../img/Logo1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebookF , faInstagram , faGoogle , faYelp} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
-import {faBarsStaggered ,faXmark , faPhone} from "@fortawesome/free-solid-svg-icons"
+import {faBarsStaggered ,faXmark , faPhone , faLocationDot} from "@fortawesome/free-solid-svg-icons"
 
 function Navbar(){
     const [Click , setClick] = useState(false);
@@ -30,14 +30,19 @@ function Navbar(){
                     </div>
 
                 </div>
-                <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-6": "lg:hidden space-x-6 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
-                    <div className={`${Scroll? "border-2" : "border-0" } p-2`}>
-                        <FontAwesomeIcon className=" flex !text-xl !text-green-400" icon = {faPhone}/>
+                <div className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
+                    <div onClick={() => window.location.href = "tel:9163337077"} className={`${Scroll? "bg-green-400" : "border-0" } p-2 rounded-full`}>
+                        <FontAwesomeIcon className= {`${Scroll? "text-white" : "text-green-400"} flex !text-xl`} icon = {faPhone}/>
                     </div>
-                    {!Click? 
-                        <FontAwesomeIcon className=" text-orange-400" icon = {faBarsStaggered}/> : 
-                        <FontAwesomeIcon className=" text-orange-400" icon={faXmark} />
-                    }
+                    <div onClick={(e) => {e.preventDefault(); window.open("https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu" , '_blank')}} className={`${Scroll? "" : "border-0" } p-2 rounded-full`}>
+                        <FontAwesomeIcon className= "flex !text-xl text-sky-400" icon = {faLocationDot}/>
+                    </div>
+                    <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
+                        {!Click? 
+                            <FontAwesomeIcon className=" text-orange-400" icon = {faBarsStaggered}/> : 
+                            <FontAwesomeIcon className=" text-orange-400" icon={faXmark} />
+                        }
+                    </div>
                 </div>
                 <div className= {Scroll? "lg:flex text-md hidden items-center space-x-12 font-new-font text-xl capitalize text-black" : "lg:flex text-md hidden items-center space-x-12 font-new-font text-xl capitalize text-orange-400" }>
                     <a className="flex t-underline t-underline-black border-b-yellow-500 " href = "/">

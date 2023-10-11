@@ -5,6 +5,10 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Popup = () => {
     const [isOpen, setIsOpen] = useState(false);
+	const AppointmentBtn = (e) => {
+        e.preventDefault();
+        window.open("https://nice-spa-106973.square.site/" , '_blank');
+    };
     return (
 		<div className={`${!isOpen? "opacity-100" : "hidden" } fixed left-0 top-0 inset-0 z-50 flex h-full w-full items-center justify-center bg-black bg-opacity-50 py-10`}>
 			<div className="w-full max-w-3xl overflow-y-auto sm:rounded-2xl bg-bgpop bg-center bg-cover bg-no-repeat">
@@ -20,7 +24,7 @@ const Popup = () => {
 							<p className="text-white font-bold text-xl md:text-3xl text-center">Get $40 off </p>
 						</div>
 						<div className="space-y-6 font-Lora">
-							<button className="p-3 text-xl bg-black hover:bg-white hover:text-black hover:-translate-y-2 border-2 border-white rounded-full text-white w-full font-semibold">Book now</button>
+							<button onClick={AppointmentBtn} className="p-3 text-xl bg-black hover:bg-white hover:text-black hover:-translate-y-2 border-2 border-white rounded-full text-white w-full font-semibold">Book now</button>
 						</div>
 					</div>
 				</div>
