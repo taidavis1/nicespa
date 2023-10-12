@@ -4,7 +4,7 @@ import 'photoswipe/dist/photoswipe.css';
 function importImg(r){
     return r.keys().map(r);
 }
-function Gallery(){
+function Staff(){
     const options = {
         zoom: false,
         tapAction:'close',
@@ -12,11 +12,14 @@ function Gallery(){
     }
     const fnames = importImg(require.context('../img/Services/' , false , /\.(png|jpg|jpeg)$/));
     return(
-        <section className = "space-y-6 pb-5 md:pb-12 ">
+        <section className = "space-y-2 md:space-y-6 pb-5 md:pb-12 ">
             <div className=" bg-hpic bg-no-repeat bg-center bg-cover pt-56 md:pt-64 md:pb-40 relative">
-                <div className="text-center tracking-wider cursor-pointer text-white md:text-4xl italic font-Lora ">
+                <div className="text-center md:block hidden tracking-wider cursor-pointer text-white md:text-4xl italic font-Lora ">
                     <h2 className="">Gallery</h2>
                 </div>
+            </div>
+            <div className="text-center py-4 text-2xl block md:hidden tracking-wide cursor-pointer text-gold md:text-4xl italic uppercase font-extrabold font-Marcok">
+                <span>Gallery</span>
             </div>
                 <div class="cursor-pointer md:px-24 px-6 overflow-x-hidden">
                     <div class="grid md:grid-cols-4 grid-cols-2 justify-items-center gap-2 cursor-pointer">
@@ -38,4 +41,4 @@ function Gallery(){
         </section>
     );
 };
-export default Gallery;
+export default Staff;

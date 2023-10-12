@@ -4,7 +4,7 @@ function Contact(){
     return(
         <section className="">
             <div className=" bg-bg2 bg-center bg-no-repeat bg-cover pt-56 md:pb-40 relative">
-                <div className="text-center hidden md:block tracking-wide cursor-pointer text-white md:text-4xl italic uppercase font-extrabold font-Marcok">
+                <div className="text-center hidden md:block tracking-wide cursor-pointer text-white md:text-4xl italic  font-extrabold font-Marcok">
                     <h2>Contact Us</h2>
                 </div>
             </div>

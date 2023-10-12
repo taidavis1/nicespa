@@ -57,7 +57,7 @@ export default function Footer(){
                                 </li>
                                 <li>
                                     <a  href="/Gallery" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Galery
+                                        Staff
                                     </a>
                                 </li>
                                 <li>

@@ -24,35 +24,33 @@ function Home(){
         <>
             <Popup />
             <section className="relative overflow-x-hidden">
-                <div className="w-screen bg-testbg lg:bg-pageb  bg-no-repeat lg:bg-center bg-cover h-screen relative">
-                    <Fade cascade delay={150}>
-                        <div className="absolute md:top-1/3 lg:right-12 top-44 w-full px-3 py-5 space-y-6 lg:py-8 md:space-y-8 text-center">
-                            <div className="">
-                                <h1 className="text-7xl ml-4 font-Dancing text-gold md:text-9xl tracking-widest whitespace-nowrap font-extrabold">Nice Spa</h1>
-                            </div>
-                            <div className="flex justify-center italic">
-                                <ul className=" text-white font-extrabold uppercase space-y-2">
-                                    <li>
-                                        <h2 className=" text-lg md:text-xl tracking-wide">YOU Could BUY HAPPINESS</h2>
-                                    </li>
-                                    <li>
-                                        <h2 className=" text-lg md:text-xl tracking-wide italic">BUT YOU Cannot BUY Body Massage</h2>
-                                    </li>
-                                    <li>
-                                        <h2 className="text-lg md:text-xl tracking-wide">AND THAT'S Not Quite Right</h2>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="flex justify-center p-4 mt-4 mb-5">
-                                <button onClick={(e) => {e.preventDefault(); window.open('/SocialTree' ,'_blank')}} className="shadow-lg md:hover:bg-white md:border-2 bg-black md:bg-black/0 md:border-white md:hover:text-black hover:-translate-y-1 text-white px-12 py-5 font-Lora text-lg  md:text-xl">Leave Us A Honest Review And Get $50 off</button>
-                            </div>
-                            <button onClick={
-                                AppointmentBtn
-                            } className="hover:bg-white rounded-full md:text-xl text-white md:bg-white/0 bg-black text-lg py-3 group cursor-pointer px-12 md:border-2 md:border-white md:tracking-wide">
-                                <a className = "group-hover:text-orange-400 font-extrabold">Book Appointment</a>
-                            </button>
+                <div className="w-screen bg-testbg lg:bg-pageb bg-no-repeat lg:bg-center bg-cover h-screen relative">
+                    <div className="absolute md:top-1/3 lg:right-12 top-44 w-full px-3 py-5 space-y-6 lg:py-8 md:space-y-8 text-center">
+                        <div className="">
+                            <h1 className="text-7xl ml-4 font-Dancing text-gold md:text-9xl tracking-widest whitespace-nowrap font-extrabold">Nice Spa</h1>
                         </div>
-                    </Fade>
+                        <div className="flex justify-center italic">
+                            <ul className=" text-white font-extrabold uppercase space-y-2">
+                                <li>
+                                    <h2 className=" text-lg md:text-xl tracking-wide">Relaxation paves the path to tranquility</h2>
+                                </li>
+                                <li>
+                                    <h2 className=" text-lg md:text-xl tracking-wide italic">When the body unwinds</h2>
+                                </li>
+                                <li>
+                                    <h2 className="text-lg md:text-xl tracking-wide">the soul discovers serenity.</h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="flex justify-center p-4 mt-4 mb-5">
+                            <button onClick={(e) => {e.preventDefault(); window.open('/SocialTree' ,'_blank')}} className="shadow-lg md:hover:bg-white md:border-2 bg-black md:bg-black/0 md:border-white md:hover:text-black hover:-translate-y-1 text-white px-12 py-5 font-Lora text-lg  md:text-xl">Leave Us A Honest Review And Get $50 off</button>
+                        </div>
+                        <button onClick={
+                            AppointmentBtn
+                        } className="hover:bg-white rounded-full md:text-xl text-white md:bg-white/0 bg-black text-lg py-3 group cursor-pointer px-12 md:border-2 md:border-white md:tracking-wide">
+                            <a className = "group-hover:text-orange-400 font-extrabold">Book Appointment</a>
+                        </button>
+                    </div>
                 </div>
                 <Slide>
                     <div className="mx-auto space-y-4">

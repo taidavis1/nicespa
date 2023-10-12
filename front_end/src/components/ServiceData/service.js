@@ -41,6 +41,20 @@ const service = [
         Price: '60 mins $110 | 90 mins $165',
         img: require('../../img/Services/Services6.png')
     },
+    {
+        id : 7,
+        servicename: ' facial',
+        description : "Reveal your skin's natural radiance with our rejuvenating facial treatment. Tailored to address individual skin concerns, this experience combines deep cleansing, gentle exfoliation, and hydrating serums to refresh and renew. Allow our skilled estheticians to pamper and nourish your skin, leaving it feeling soft, smooth, and revitalized. Step into a world of relaxation and emerge with a youthful, glowing complexion.",
+        Price: '1 hour $100',
+        img: require('../../img/Services/Services7.png')
+    },
+    {
+        id : 8,
+        servicename: 'Package facial and massage',
+        description: "Indulge in our ultimate relaxation package, combining the benefits of a revitalizing facial with a soothing massage. Begin by rejuvenating your skin's natural glow, addressing unique skin needs with deep cleansing, exfoliation, and hydrating treatments. Follow this with a therapeutic massage tailored to melt away stress and muscle tension. Together, this luxurious duo offers a holistic experience, leaving you refreshed from head to toe and revealing a radiant, relaxed you.", 
+        Price : '2 hours $180',
+        img: require('../../img/Services/Services8.png'),
+    }
 ];
 
 export default service;
