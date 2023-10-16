@@ -69,9 +69,6 @@ function Services(){
                     <button onClick={AppointmentBtn} className="hover:shadow-lg hover:-translate-y-2 hover:bg-black hover:text-white ease-in-out delay-100 duration-150 mt-5 md:text-xl text-black border-2 border-black text-lg py-3  group cursor-pointer px-12 md:tracking-wide">Book Now</button>
                 </div>
             </div>
-
-
-
             <div className="md:space-y-12 p-3 hidden md:block">
                 <div className="p-4 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-screen-2xl cursor-pointer">
                     {service.map((s) => (

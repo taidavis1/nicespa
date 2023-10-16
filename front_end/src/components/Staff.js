@@ -1,43 +1,48 @@
 import {React} from "react";
-import {Gallery as Glery , Item , } from "react-photoswipe-gallery";
-import 'photoswipe/dist/photoswipe.css';
-function importImg(r){
-    return r.keys().map(r);
-}
+import staffData from "./ServiceData/staffData";
 function Staff(){
     const options = {
         zoom: false,
         tapAction:'close',
         doubleTapAction: false,
     }
-    const fnames = importImg(require.context('../img/Services/' , false , /\.(png|jpg|jpeg)$/));
+    const AppointmentBtn = (e) => {
+        e.preventDefault();
+        window.open("https://nice-spa-106973.square.site/" , '_blank');
+    };
     return(
         <section className = "space-y-2 md:space-y-6 pb-5 md:pb-12 ">
             <div className=" bg-hpic bg-no-repeat bg-center bg-cover pt-56 md:pt-64 md:pb-40 relative">
                 <div className="text-center md:block hidden tracking-wider cursor-pointer text-white md:text-4xl italic font-Lora ">
-                    <h2 className="">Gallery</h2>
+                    <h2 className="">Staff</h2>
                 </div>
             </div>
-            <div className="text-center py-4 text-2xl block md:hidden tracking-wide cursor-pointer text-gold md:text-4xl italic uppercase font-extrabold font-Marcok">
-                <span>Gallery</span>
+            <div className="text-center py-2 text-2xl block md:hidden tracking-wide cursor-pointer text-gold md:text-4xl italic uppercase font-extrabold font-Marcok">
+                <span>Staff</span>
             </div>
-                <div class="cursor-pointer md:px-24 px-6 overflow-x-hidden">
-                    <div class="grid md:grid-cols-4 grid-cols-2 justify-items-center gap-2 cursor-pointer">
-                        <Glery options={options}>
-                            {fnames.map((fname , index) => (
-                                    <>
-                                        <div key={index} class="p-1 shadow-lg md:p-2">
-                                            <Item width="900" height="900"key={index} original={fname}  alt= "#">
-                                                {({ref , open}) => (
-                                                    <img className=" rounded-lg hover:opacity-70 transition-opacity ease-in" alt="#" ref={ref} src={fname}  onClick={open} />
-                                                )}
-                                            </Item>
-                                        </div>
-                                    </>
-                            ))}
-                        </Glery>
-                    </div>
+            <div className="md:space-y-12 md:p-3">
+                <div className="p-4 grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-3 mx-auto max-w-screen-2xl cursor-pointer">
+                    {staffData.map((s) => (
+                        <div className="shadow-lg rounded-lg ease-in-out transition-all duration-1000 lg:hover:scale-105">
+                            <div className="">
+                                <img className="h-full w-full" src={s.img} />
+                            </div>
+                            <div key={s.id} className=" p-4">
+                                <div>
+                                    <h1 className="text-[#ffae33] font-Dancing text-3xl text-center">{s.staffname}</h1>
+                                </div>
+                                <div className="p-2">
+                                    <span className=" p-2">{s.description}</span>
+                                </div>
+                                <hr></hr>
+                                <div className=" mt-4 text-center">
+                                    <button onClick={AppointmentBtn} className="hover:shadow-lg hover:-translate-y-2 hover:bg-black hover:text-white ease-in-out delay-100 duration-150 mt-5 md:text-xl text-black border-2 border-black text-lg py-3  group cursor-pointer px-12 md:tracking-wide">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
+            </div>
         </section>
     );
 };
