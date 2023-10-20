@@ -1,6 +1,6 @@
 import React , {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faYelp  , faFacebook , faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {faYelp  , faFacebook , faInstagram , faGoogle} from "@fortawesome/free-brands-svg-icons";
 import {faAddressCard} from "@fortawesome/free-regular-svg-icons";
 import Logo from "../img/Logo.png";
 function SocialTree(){
@@ -16,7 +16,7 @@ function SocialTree(){
                 <a href = "https://www.yelp.com/writeareview/biz/B1rMWecDqeQuu0MW4Nem1w?return_url=%2Fbiz%2FB1rMWecDqeQuu0MW4Nem1w&review_origin=biz-details-war-button" target="_blank" rel="noreferrer">
                     <button className="w-full md:text-3xl group-hover:text-white text-rose-600 italic font-semibold h-full inline-flex items-center justify-center">
                         <FontAwesomeIcon className="mx-2 group-hover:text-white md:mx-4 overflow-hidden text-rose-500 transition ease-in-out delay-150 duration-200 text-3xl md:text-5xl" icon={faYelp}></FontAwesomeIcon>
-                    Yelp</button>
+                    Yelp</button>faGoogle
                 </a>
             </div>
             <div className="group mx-auto md:my-7 hover:bg-black my-4 border-4 group w-full h-16 md:w-4/5 md:h-20 rounded-full border-black shadow-lg  hover:opacity-50 transition ease-in-out delay-150 duration-200">
@@ -38,6 +38,13 @@ function SocialTree(){
                     <button className="w-full md:text-3xl group-hover:text-white text-blue-500 italic font-semibold h-full inline-flex items-center justify-center mx-2">
                         <FontAwesomeIcon className="mx-2 md:mx-4 text-4xl md:text-5xl rounded-full group-hover:text-white text-blue-500 " icon={faFacebook}></FontAwesomeIcon>
                     Facebook</button>
+                </a>
+            </div>
+            <div className="group md:my-7 mx-auto hover:bg-green-500 group  my-4 border-4 w-full h-16 md:w-4/5 md:h-20 rounded-full border-green-500 shadow-lg  hover:opacity-50 transition ease-in-out delay-150 duration-200">
+                <a href = "https://g.page/r/Cer3to7plssTEB0/review" target="_blank" rel="noreferrer" >
+                    <button className="w-full md:text-3xl group-hover:text-white text-green-500 italic font-semibold h-full inline-flex items-center justify-center mx-2">
+                        <FontAwesomeIcon className="mx-2 md:mx-4 text-4xl md:text-5xl rounded-full group-hover:text-white text-green-500 " icon={faGoogle}></FontAwesomeIcon>
+                    Google</button>
                 </a>
             </div>
         </div>
