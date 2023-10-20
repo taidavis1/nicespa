@@ -16,7 +16,7 @@ function SocialTree(){
                 <a href = "https://www.yelp.com/writeareview/biz/B1rMWecDqeQuu0MW4Nem1w?return_url=%2Fbiz%2FB1rMWecDqeQuu0MW4Nem1w&review_origin=biz-details-war-button" target="_blank" rel="noreferrer">
                     <button className="w-full md:text-3xl group-hover:text-white text-rose-600 italic font-semibold h-full inline-flex items-center justify-center">
                         <FontAwesomeIcon className="mx-2 group-hover:text-white md:mx-4 overflow-hidden text-rose-500 transition ease-in-out delay-150 duration-200 text-3xl md:text-5xl" icon={faYelp}></FontAwesomeIcon>
-                    Yelp</button>faGoogle
+                    Yelp</button>
                 </a>
             </div>
             <div className="group mx-auto md:my-7 hover:bg-black my-4 border-4 group w-full h-16 md:w-4/5 md:h-20 rounded-full border-black shadow-lg  hover:opacity-50 transition ease-in-out delay-150 duration-200">
