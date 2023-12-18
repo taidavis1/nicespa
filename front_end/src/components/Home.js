@@ -231,13 +231,13 @@ function Home(){
                                 </span>
                             </div>
                             <div className = "text-center text-2xl md:text-5xl flex-row justify-center flex space-x-6 md:space-x-12">
-                                <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/nailstech.md/">
+                                <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/nicespasac/">
                                     <FontAwesomeIcon className="text-rose-300 transition ease-in-out delay-150 duration-200"   icon={faInstagram}></FontAwesomeIcon>
                                 </a>
-                                <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.facebook.com/profile.php?id=100088194774286">
+                                <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.facebook.com/profile.php?id=61552561621667">
                                     <FontAwesomeIcon className="text-sky-300 transition ease-in-out delay-150 duration-200"  icon={faFacebookF}></FontAwesomeIcon>
                                 </a>
-                                <a className="cursor-pointer flex" target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/place/NAILS+TECH/@39.125234,-76.5347105,15z/data=!4m6!3m5!1s0x89b7feb081c4ffd5:0xc692714eadeeba94!8m2!3d39.125234!4d-76.5347105!16s%2Fg%2F1tlqqwsn?entry=ttu">
+                                <a className="cursor-pointer flex" target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu">
                                     <FontAwesomeIcon className="text-green-300"  icon={faGoogle}></FontAwesomeIcon>
                                 </a>
                                 <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.yelp.com/biz/nice-spa-sacramento-2">

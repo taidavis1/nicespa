@@ -19,7 +19,7 @@ export default function Footer(){
                 
                         <ul className="mt-8 flex justify-center gap-6 md:gap-8">
                             <li className="">
-                                <a href="https://www.facebook.com/profile.php?id=100088194774286" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="https://www.facebook.com/profile.php?id=61552561621667" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png"/>
                                 </a>
                             </li>
@@ -29,7 +29,7 @@ export default function Footer(){
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/nailstech.md/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="https://www.instagram.com/nicespasac/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
                                 </a>
                             </li>
@@ -121,7 +121,7 @@ export default function Footer(){
                         </div>
                         <div className="text-center sm:text-left">
                             <p className="text-lg font-medium text-gray-900">Contact Us</p>
-                            <ul className="mt-8 space-y-5 text-sm">
+                            <ul className="mt-8 md:space-y-2 space-ymailto:nguyenthuyan1706@gmail.com-5 text-sm">
                                 <li>
                                     <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="/">
                                         <svg

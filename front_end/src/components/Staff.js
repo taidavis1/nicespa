@@ -13,7 +13,7 @@ function Staff(){
     return(
         <section className = "space-y-2 md:space-y-6 pb-5 md:pb-12 ">
             <div className=" bg-hpic bg-no-repeat bg-center bg-cover pt-56 md:pt-64 md:pb-40 relative">
-                <div className="text-center md:block hidden tracking-wider cursor-pointer text-white md:text-4xl italic font-Lora ">
+                <div className="tracking-wide hidden md:block text-center cursor-pointer text-white md:text-4xl italic font-Lora font-extrabold">
                     <h2 className="">Staff</h2>
                 </div>
             </div>
