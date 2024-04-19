@@ -43,7 +43,7 @@ function Home(){
                             </ul>
                         </div>
                         <div className="flex justify-center p-4 mt-4 mb-5">
-                            <button onClick={(e) => {e.preventDefault(); window.open('/SocialTree' ,'_blank')}} className="shadow-lg md:hover:bg-white md:border-2 bg-black md:bg-black/0 md:border-white md:hover:text-black hover:-translate-y-1 text-white px-12 py-5 font-Lora text-lg  md:text-xl">Leave Us A Honest Review And Get $50 off</button>
+                            <button onClick={(e) => {e.preventDefault(); window.open('/SocialTree' ,'_blank')}} className="shadow-lg md:hover:bg-white md:border-2 bg-black md:bg-black/0 md:border-white md:hover:text-black hover:-translate-y-1 text-white px-12 py-5 font-Lora text-lg  md:text-xl">Leave Us A Honest Review And Get 10% off</button>
                         </div>
                         <button onClick={
                             AppointmentBtn
@@ -67,7 +67,6 @@ function Home(){
                                         enhance circulation, eliminate muscle discomfort, and foster a sense of well-being & relaxation. We offer an exceptionally relaxing environment, 
                                         coupled with attentive customer service. Our skilled and seasoned therapists will attend to your individual needs and deliver the level of quality and value you anticipate from a professional 
                                         spa. We aim to ensure that you exit our spa feeling refreshed, and thoroughly pampered.
-
                                     </span>
                                 </div>
                                 <div className="">
