@@ -48,7 +48,7 @@ function Home(){
                         <button onClick={
                             AppointmentBtn
                         } className="hover:bg-white rounded-full md:text-xl text-white md:bg-white/0 bg-black text-lg py-3 group cursor-pointer px-12 md:border-2 md:border-white md:tracking-wide">
-                            <a className = "group-hover:text-orange-400 font-extrabold">Book Appointment</a>
+                            <span className = "group-hover:text-orange-400 font-extrabold">Book Appointment</span>
                         </button>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className="hidden md:block overflow-hidden">
-                                <img className="ease-in-out transition-all duration-1000 hover:scale-125" src={hpic}/>
+                                <img alt="#test" className="ease-in-out transition-all duration-1000 hover:scale-125" src={hpic}/>
                             </div>
                         </div>
                     
@@ -87,7 +87,7 @@ function Home(){
                         </div>
                         <div className="grid p-5 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-5 lg:gap-x-8 cursor-pointer">
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol1} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol1} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Firm Swedish</h1>
                                 </div>
@@ -100,7 +100,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol2} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol2} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Hot Stone</h1>
                                 </div>
@@ -112,7 +112,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol3} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol3} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Rest & Relax</h1>
                                 </div>
@@ -124,7 +124,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol4} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol4} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Deep Tissue</h1>
                                 </div>
@@ -136,7 +136,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol5} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol5} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Thai Stretching & Deep Tissue</h1>
                                 </div>
@@ -149,7 +149,7 @@ function Home(){
                                 </div>
                             </div>
                             <div className=" shadow-md shadow-black md:shadow-none md:shadow-white md:hover:shadow-lg group md:bg-white md:text-black bg-black text-white md:hover:bg-black md:hover:text-white p-6 md:p-14 space-y-5">
-                                <img className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol6} />
+                                <img alt="#Symbol" className=" w-20 md:invert-0 invert md:group-hover:invert" src={Symbol6} />
                                 <div className="text-2xl font-Lora">
                                     <h1>Body Scrub & Massage</h1>
                                 </div>
@@ -180,7 +180,7 @@ function Home(){
                         <div className="grid grid-cols-1 lg:grid-cols-3 md:space-y-0 gap-4">
                             <div className="shadow-lg ease-in-out transition-all duration-1000 lg:hover:scale-105 rounded-lg hover: p-2 md:p-8 bg-[#26282c] space-y-3">
                                 <div className="flex justify-center">
-                                    <img className=" w-20 rounded-full" src={Symbol} />
+                                    <img alt="#Symbol" className=" w-20 rounded-full" src={Symbol} />
                                 </div>
                                 <div className=" text-xl italic uppercase font-Marcok text-orange-300 text-center">
                                     <span>We boast top-tier therapists</span>
@@ -193,7 +193,7 @@ function Home(){
                             </div>
                             <div className="shadow-lg  ease-in-out transition-all duration-1000 lg:hover:scale-105 rounded-lg p-2 md:p-8 bg-[#015294] space-y-3">
                                 <div className=" flex justify-center">
-                                    <img className=" w-20 rounded-full" src={Symbol22} />
+                                    <img alt="#Symbol" className=" w-20 rounded-full" src={Symbol22} />
                                 </div>
                                 <div className=" text-xl italic uppercase font-Marcok text-orange-300 text-center">
                                     <span>Customer ARE DELIGHTED</span>
@@ -206,7 +206,7 @@ function Home(){
                             </div>
                             <div className="shadow-lg  ease-in-out transition-all duration-1000 lg:hover:scale-105 rounded-lg p-2 md:p-8 bg-[#838384] space-y-3">
                                 <div className=" flex justify-center">
-                                    <img className=" w-20 rounded-full" src={Symbol33} />
+                                    <img alt="#Symbol" className=" w-20 rounded-full" src={Symbol33} />
                                 </div>
                                 <div className=" text-xl italic uppercase font-Marcok text-orange-300 text-center">
                                     <span>We Have High Quality Service</span>

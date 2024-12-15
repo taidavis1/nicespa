@@ -23,9 +23,9 @@ const Popup = () => {
 		<div onClick={handleButtonClick} className={`${!isOpen? "opacity-100" : "hidden" } px-2 fixed left-0 top-0 inset-0 z-50 flex h-screen w-screen items-center justify-center bg-black bg-opacity-50`}>
 			<div className='relative'>
                 {currentImageIndex === 2 || currentImageIndex === 3? (
-                    <img className='h-[680px] w-[700px] lg:w-[500px] lg:h-[800px]' src={images[currentImageIndex]} />
+                    <img alt='#popup' className='h-[680px] w-[700px] lg:w-[500px] lg:h-[800px]' src={images[currentImageIndex]} />
                 ): (
-                    <img className=' w-[400px] lg:w-[700px] h-[400px] lg:h-[550px]' src={images[currentImageIndex]} />
+                    <img  alt='#popup' className=' w-[400px] lg:w-[700px] h-[400px] lg:h-[550px]' src={images[currentImageIndex]} />
                 )}
                 <div className=' absolute top-0 right-0'>
                     <button className = " p-3" onClick={handleButtonClick}>

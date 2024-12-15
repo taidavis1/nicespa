@@ -48,7 +48,7 @@ function Services(){
                                     <Fade delay={100}>
                                         <div className="p-4 shadow-lg rounded-lg">
                                             <div className="grid p-3 grid-cols-1">
-                                                <img src= {s.img} />
+                                                <img alt={s.servicename} src= {s.img} />
                                             </div>
                                             <ul className=" ml-4 p-2 space-y-3 list-inside gap-4">
                                                 <div className="">
@@ -74,7 +74,7 @@ function Services(){
                     {service.map((s) => (
                         <div className="shadow-lg rounded-lg space-y-2 mb-2 py-4 ease-in-out transition-all duration-1000 lg:hover:scale-105">
                             <div className=" p-4">
-                                <img className="h-full w-full" src={s.img} />
+                                <img alt={s.servicename} className="h-full w-full" src={s.img} />
                             </div>
                             <div key={s.id} className=" p-4">
                                 <div>
@@ -87,7 +87,7 @@ function Services(){
                                 <div className=" mt-4 text-center">
                                     <span className=" font-Lora text-2xl">{s.Price}</span>
                                 </div>
-                             </div>
+                            </div>
                             <div className=" flex justify-center">
                                 <button onClick={AppointmentBtn} className="hover:shadow-lg hover:-translate-y-2 hover:bg-black hover:text-white ease-in-out delay-100 duration-150 mt-5 md:text-xl text-black border-2 border-black text-lg py-3  group cursor-pointer px-12 md:tracking-wide">Book Now</button>
                             </div>

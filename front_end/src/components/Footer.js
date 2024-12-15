@@ -20,22 +20,22 @@ export default function Footer(){
                         <ul className="mt-8 flex justify-center gap-6 md:gap-8">
                             <li className="">
                                 <a href="https://www.facebook.com/profile.php?id=61552561621667" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png"/>
+                                    <img alt="#icon" src="https://img.icons8.com/fluent/30/000000/facebook-new.png"/>
                                 </a>
                             </li>
                             <li>
                                 <a href="mailto:dv_nailsspa@yahoo.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
+                                    <img alt="#icon" src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/nicespasac/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
+                                    <img alt="#icon" src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.yelp.com/biz/nice-spa-sacramento-2" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
+                                    <img alt="#icon" src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
                                 </a>
                             </li>
                             
@@ -72,9 +72,9 @@ export default function Footer(){
                             <ul className="mt-8 space-y-4 text-sm">
                                 {service.map((s) => (
                                     <li>
-                                        <a key={s.id} className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        <span key={s.id} className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                             {s.servicename}
-                                        </a>
+                                        </span>
                                     </li>
                                 ))}
                             </ul>
@@ -83,39 +83,39 @@ export default function Footer(){
                             <p className="text-lg font-medium text-gray-900">Business Hours</p>
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Mon: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Tues: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Wed: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Thrus: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Fri: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Sat: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Sun: 10:30 am - 9:30 pm
-                                    </a>
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -141,7 +141,7 @@ export default function Footer(){
                                         <a href="mailto:nicespa.square@gmail.com" className="flex-1 text-gray-700">nicespa.square@gmail.com</a>
                                     </a>
                                 </li>
-      
+
                                 <li>
                                     <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="tel:9163337077">
                                         <svg

@@ -25,7 +25,7 @@ function Staff(){
                     {staffData.map((s) => (
                         <div className="shadow-lg rounded-lg ease-in-out transition-all duration-1000 lg:hover:scale-105">
                             <div className="">
-                                <img className="h-full w-full" src={s.img} />
+                                <img alt={s.staffname} className="h-full w-full" src={s.img} />
                             </div>
                             <div key={s.id} className=" p-4">
                                 <div>

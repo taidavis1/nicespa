@@ -14,7 +14,7 @@ function Contact(){
             <div className=" mb-4 md:mb-12 mx-auto max-w-screen-xl cursor-pointer">
                 <div className="grid grid-cols-1 text-justify md:gap-8 lg:grid-cols-3 ">
                     <div className="col-span-2 group p-4 space-y-4 lg:space-y-8">
-                        <img className=" ease-in-out transition-opacity duration-150 delay-150 group-hover:opacity-60" src={hpic}></img>
+                        <img alt="#pic" className=" ease-in-out transition-opacity duration-150 delay-150 group-hover:opacity-60" src={hpic}></img>
                     </div>
                     <div className="p-4 space-y-4 lg:space-y-8 lg:text-justify lg:grid justify-center text-center">
                         <div className="">
@@ -23,8 +23,8 @@ function Contact(){
                                     <span className="text-3xl tracking-wider">See us in person</span>
                                 </div>
                                 <div className="space-y-3">
-                                   <p>We love our customers and welcome them to walk in during our normal business hours of 10:30 am - 9:30 pm, Monday through Sun.</p>
-                                   <ul className="space-y-2 font-semibold">
+                                    <p>We love our customers and welcome them to walk in during our normal business hours of 10:30 am - 9:30 pm, Monday through Sun.</p>
+                                    <ul className="space-y-2 font-semibold">
                                         <li>
                                             <a className="transition text-black t-underline t-underline-black border-b-yellow-500" target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/data=!4m2!3m1!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca?sa=X&ved=2ahUKEwi8-Iny0tSBAxWYEkQIHfWTBdoQ8gF6BAgSEAA&ved=2ahUKEwi8-Iny0tSBAxWYEkQIHfWTBdoQ8gF6BAgTEAI">
                                                 Address: 4561 Mack Rd Sacramento, CA 95823

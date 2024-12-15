@@ -24,7 +24,7 @@ function Navbar(){
         <div className="">
             <nav className= {Scroll?"bg-white flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
                 <div className="flex items-center space-x-1 cursor-pointer group">
-                    <img src={Logo1} alt="" className=" w-20 md:w-20 group-hover:opacity-70"/>
+                    <img src={Logo1} alt="#Logo" className=" w-20 md:w-20 group-hover:opacity-70"/>
                     <div className="flex font-Dancing italic font-extrabold  text-2xl items-center ">
                         <span className={Scroll? "text-black":"text-gold"}>Nice Spa</span>
                     </div>
