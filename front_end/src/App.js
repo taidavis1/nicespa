@@ -11,6 +11,7 @@ import { Route , Routes , useLocation } from 'react-router-dom';
 import Services from './components/Services';
 function App() {
   const IsTree = useLocation().pathname.includes('/SocialTree');
+
   return (
     
     <main className=' font-newFont'>

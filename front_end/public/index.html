@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMJE7YPL6Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DMJE7YPL6Z');
+    </script>
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="canonical" href="https://nicespa.info"/>
@@ -8,7 +18,12 @@
     <meta name="theme-color" content="#000000" />
 
     <meta name="description" content="Discover Nice Spa in Sacramento, CA – the perfect destination for relaxing massages, rejuvenating facials, and luxurious spa treatments. Book now to experience top-quality self-care and wellness services." />
-    <meta name="keywords" content="Nice Spa Sacramento, massages Sacramento, facials Sacramento, spa treatments Sacramento, self-care Sacramento, wellness Sacramento, hot stone massage, deep tissue massage, skincare Sacramento, luxury spa Sacramento" />
+    <meta name="keywords" content="Nice Spa Sacramento, massages Sacramento, facials Sacramento, spa treatments Sacramento, 
+      self-care Sacramento, wellness Sacramento, hot stone massage, deep tissue massage, skincare Sacramento, 
+      luxury spa Sacramento, massage in Sacramento, facials in Sacramento, spa treatments in Sacramento, 
+      self-care in Sacramento, wellness in Sacramento, hot stone massage in Sacramento, deep tissue massage in Sacramento, 
+      skincare in Sacramento, Sacramento Spa, Sacramento Massage, Sacramento Facials, Sacramento Spa Treatments," 
+    />
     <meta name="author" content="Nice Spa" />
     <meta name="robots" content="index, follow" />
 
@@ -19,36 +34,118 @@
     <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" />
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Nice Spa",
-      "image": "https://nicespa.info/images/spa-social-preview.jpg",
-      "url": "https://nicespa.info",
-      "telephone": "+1-916-333-7077",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "4561 Mack Rd",
-        "addressLocality": "Sacramento",
-        "addressRegion": "CA",
-        "postalCode": "95823",
-        "addressCountry": "US"
-      },
-      "priceRange": "$$",
-      "description": "Nice Spa in Sacramento, CA offers premium massages, facials, and wellness treatments to help you relax and rejuvenate.",
-      "openingHours": "Mo-Su 10:30-21:30",
-      "sameAs": [
-        "https://www.instagram.com/nicespasac/",
-        "https://nicespa.info"
-      ]
-    }
-    </script>
+      {
+        "@context": "https://schema.org",
+        "@type": "DaySpa",
+        "name": "Nice Spa",
+        "description": "Nice Spa in Sacramento, CA offers premium massages, facials, and wellness treatments to help you relax and rejuvenate.",
+        "image": "https://nicespa.info/static/media/Logo1.83d98dced0f7c6a4488e.png",
+        "@id": "https://nicespa.info",
+        "url": "https://nicespa.info",
+        "telephone": "+1-916-333-7077",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "4561 Mack Rd",
+          "addressLocality": "Sacramento",
+          "addressRegion": "CA",
+          "postalCode": "95823",
+          "addressCountry": "US"
+        },
+        "openingHours": "Mo-Su 10:30-21:30",
+        "priceRange": "$$",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 38.4786,
+          "longitude": -121.451
+        },
+        "keywords": [
+          "Nice Spa Sacramento",
+          "massages Sacramento",
+          "facials Sacramento",
+          "spa treatments Sacramento",
+          "self-care Sacramento",
+          "wellness Sacramento",
+          "hot stone massage",
+          "deep tissue massage",
+          "skincare Sacramento",
+          "luxury spa Sacramento"
+        ],
+        "sameAs": [
+          "https://www.instagram.com/nicespasac/",
+          "https://www.facebook.com/nicespa.info/"
+        ],
+        "department": [
+          {
+            "@type": "BeautySalon",
+            "name": "Massage Therapy",
+            "description": "Offering a variety of massage services including Deep Tissue, Hot Stone, and Thai Stretching to relieve stress and muscle tension.",
+            "serviceOffered": [
+              {
+                "@type": "Service",
+                "name": "Deep Tissue Massage",
+                "description": "Targets deeper layers of muscles to relieve chronic aches and pains.",
+                "url": "https://nicespa.info/Services"
+              },
+              {
+                "@type": "Service",
+                "name": "Hot Stone Massage",
+                "description": "Uses heated stones to promote relaxation and ease tense muscles.",
+                "url": "https://nicespa.info/Services"
+              },
+              {
+                "@type": "Service",
+                "name": "Thai Stretching & Deep Tissue",
+                "description": "Combines traditional Thai stretching techniques with deep tissue massage.",
+                "url": "https://nicespa.info/Services"
+              },
+              {
+                "@type": "Service",
+                "name": "Rest & Relax Massage",
+                "description": "A gentle massage designed to relax and rejuvenate the body.",
+                "url": "https://nicespa.info/Services"
+              }
+            ]
+          },
+          {
+            "@type": "BeautySalon",
+            "name": "Skincare Treatments",
+            "description": "Professional facial services to cleanse, exfoliate, and nourish your skin.",
+            "serviceOffered": [
+              {
+                "@type": "Service",
+                "name": "Facial",
+                "description": "Customized facial treatments to enhance skin health and appearance.",
+                "url": "https://nicespa.info/Services"
+              }
+            ]
+          },
+          {
+            "@type": "BeautySalon",
+            "name": "Body Treatments",
+            "description": "Indulgent body treatments including body scrubs and spa packages for overall wellness.",
+            "serviceOffered": [
+              {
+                "@type": "Service",
+                "name": "Body Scrub & Massage",
+                "description": "Exfoliating body scrub followed by a relaxing massage.",
+                "url": "https://nicespa.info/Services"
+              },
+              {
+                "@type": "Service",
+                "name": "Spa Packages",
+                "description": "Combination of services for a comprehensive spa experience.",
+                "url": "https://nicespa.info/Services"
+              }
+            ]
+          }
+        ]
+      }
+    </script>      
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Nice Spa – Sacramento's Premier Spa Destination</title>
   </head>
   <body>
-    <noscript>You need to run this app.</noscript>
     <div id="root"></div>
   </body>
 </html>
