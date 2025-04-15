@@ -25,7 +25,7 @@ const Popup = () => {
                 {currentImageIndex === 2 || currentImageIndex === 3? (
                     <img alt='#popup' className='h-[680px] w-[700px] lg:w-[500px] lg:h-[800px]' src={images[currentImageIndex]} />
                 ): (
-                    <img  alt='#popup' className=' w-[400px] lg:w-[700px] h-[400px] lg:h-[550px]' src={images[currentImageIndex]} />
+                    <img  alt='#popup' className=' w-[400px] lg:w-[600px] h-[400px] lg:h-[600px]' src={images[currentImageIndex]} />
                 )}
                 <div className=' absolute top-0 right-0'>
                     <button className = " p-3" onClick={handleButtonClick}>

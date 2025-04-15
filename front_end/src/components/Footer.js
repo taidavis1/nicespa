@@ -71,8 +71,8 @@ export default function Footer(){
                             <p className="text-lg font-medium text-gray-900">Services</p> 
                             <ul className="mt-8 space-y-4 text-sm">
                                 {service.map((s) => (
-                                    <li>
-                                        <span key={s.id} className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <li key={s.id}>
+                                        <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
                                             {s.servicename}
                                         </span>
                                     </li>
@@ -121,9 +121,9 @@ export default function Footer(){
                         </div>
                         <div className="text-center sm:text-left">
                             <p className="text-lg font-medium text-gray-900">Contact Us</p>
-                            <ul className="mt-8 md:space-y-2 space-ymailto:nguyenthuyan1706@gmail.com-5 text-sm">
+                            <ul className="mt-8 md:space-y-2 space-y-3 text-sm">
                                 <li>
-                                    <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="/">
+                                    <div className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 shrink-0 text-gray-900"
@@ -139,7 +139,7 @@ export default function Footer(){
                                             />
                                         </svg>
                                         <a href="mailto:nicespa.square@gmail.com" className="flex-1 text-gray-700">nicespa.square@gmail.com</a>
-                                    </a>
+                                    </div>
                                 </li>
 
                                 <li>
@@ -191,7 +191,7 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-      
+
                 <div className="mt-12 border-t border-gray-100 pt-6">
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
                         <p className="text-sm text-gray-500">
@@ -199,7 +199,7 @@ export default function Footer(){
                         </p>  
         
                         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            &copy; 2023 Nice Spa
+                            &copy; {new Date().getFullYear()} Nice Spa
                         </p>
                     </div>
                 </div>
