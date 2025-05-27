@@ -23,6 +23,12 @@ const staffData = [
         description: "Amy Zheng excels as a Chinese massage therapist, combining professionalism with a friendly demeanor. Her expertise enables her to deliver a 60-minute massage session that feels as comprehensive and rejuvenating as a typical 90-minute session elsewhere. Amy's approach is not only professional but also charming and artistic, making her an exceptional therapist in her field",
         img: require('../../img/Staff/right.jpg')
     },
+    {
+        id: 5,
+        staffname: 'Hannah Le',
+        description: 'She is a California state licensed massage therapist with a passion for healing and care. Known for her kindness and compassion, especially toward seniors, she creates a calming space where every session is meaningful. She’s always growing in her craft and finds joy in helping others feel their best. Meeting new people and making a difference through massage is what inspires her every day.',
+        img: require('../../img/Staff/hannah.png')
+    }
 ];
 
 export default staffData;

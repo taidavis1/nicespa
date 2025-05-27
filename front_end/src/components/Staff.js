@@ -31,8 +31,8 @@ function Staff(){
                                 <div>
                                     <h1 className="text-[#ffae33] font-Dancing text-3xl text-center">{s.staffname}</h1>
                                 </div>
-                                <div className="p-2">
-                                    <span className=" p-2">{s.description}</span>
+                                <div className="lg:p-2 p-1">
+                                    <span className=" lg:p-2">{s.description}</span>
                                 </div>
                                 <hr></hr>
                                 <div className=" mt-4 text-center">
